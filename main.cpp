@@ -70,6 +70,10 @@ void Menu::zasady()
 	cout<<"\t Twoim zadaniem jest zatopienie statkow przeciwnika."<<endl;
 	cout<<"\t Rozstawic musisz 1 statek 4masztowy, 2 statki 3masztowe, 3 statki 2masztowe i 4 statki 1masztowe"<<endl;
 	cout<<"\t Statki nie moga sie stykac."<<endl;
+	cout<<"\t W czasie ustawiania podajesz wspolrzedne poczatku statku, wiec w orientacji pionowej kolejne elementy beda ponizej poczatkowego punktu, a w orientacji poziomej kolejne elementy beda na prawo od poczatkowego punktu."<<endl;
 	cout<<"\t Strzelasz na zmiane z komputerem. Nie masz dodatkowego strzalu po trafieniu."<<endl;
 	cout<<"\t Wygrywa ten, kto pierwszy zestrzeli wszystkie statki przeciwnika"<<endl;
+	if(getch())
+	{
+	}
 }
