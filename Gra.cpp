@@ -24,7 +24,7 @@ Gra::Gra()
 			czy_widoczne=true;
 			break;
 		}
-		else if( wybor==0)
+		else if( wybor==2)
 		{
 			czy_widoczne=false;
 			break;
